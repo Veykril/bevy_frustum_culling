@@ -18,7 +18,7 @@ bevy_mod_bounding = { git = "https://github.com/Veykril/bevy_mod_bounding.git", 
 #    "x11",
 #] }
 
-bevy = { path = "../bevy", default-features = false, features = [
+bevy = { git = "https://github.com/bevyengine/bevy.git", rev = "997eae6", default-features = false, features = [
     "bevy_wgpu",
     "bevy_winit",
     "bevy_gltf",
